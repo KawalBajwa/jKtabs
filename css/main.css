@@ -1,0 +1,16 @@
+/* Reset Styles Group */
+*{margin:0;padding:0;}
+img,fieldset{border:none;}
+ul,ol{list-style:none;}
+.clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both;float:none;font-size:0;}
+.clearfix{zoom:1;}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}
+a[href], a {text-decoration: none;}
+table{border-collapse:collapse;border-spacing:0;}
+a,a[href],a:focus{outline:none;-moz-outline: 0 none;}
+input[type="text"], input[type="password"]{outline: none;}
+
+/* Center Elements wit no WIDTH */
+
+.outer {position: relative; left: 50%; float: left; clear: both;}
+.inner {position: relative; left: -50%;}
