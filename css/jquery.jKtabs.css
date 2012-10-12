@@ -1,1 +1,20 @@
-sd
+/* Reset Styles Group */
+*{margin:0;padding:0;}
+img,fieldset{border:none;}
+ul,ol{list-style:none;}
+.clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both;float:none;font-size:0;}
+.clearfix{zoom:1;}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}
+a[href], a {text-decoration: none;}
+table{border-collapse:collapse;border-spacing:0;}
+a,a[href],a:focus{outline:none;-moz-outline: 0 none;}
+input[type="text"], input[type="password"]{outline: none;}
+
+/* Center Elements wit no WIDTH */
+
+.outer {position: relative; left: 50%; float: left; clear: both;}
+.inner {position: relative; left: -50%;}
+
+.tabWrap li{border: 1px solid #000;float: left; width: 150px; background: #ccc; color: #000; text-transform: capitalize; height: 50px; line-height: 50px; margin-right: 10px; text-align: center;}
+.tabWrap a{display: block; color: #000;}
+.productContent{width: 472px; height: 300px; background: #efefef;  color: #000; border: 2px solid #000; margin-top: 5px;}
