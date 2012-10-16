@@ -21,11 +21,13 @@ jQuery.fn.jKtabs = function(options){
 			return c;
 		}
 		
+		e.find('li:first').addClass(o.activeCssClass);
+		
 		e.find('li').each(function(i){
 			var x = cleanup($(this));
 			jQuery(jQuery('.'+o.commonCssClass)[i]).attr('id', x.slice(1));
 			jQuery('.'+o.commonCssClass).hide();
-			jQuery('.'+o.commonCssClass+':first').show();	
+			jQuery('.'+o.commonCssClass+':first').show();
 		});
 		
 		e.find('li').click(function(i){
